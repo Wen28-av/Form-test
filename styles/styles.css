@@ -1,0 +1,45 @@
+#body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#main-container{
+    background-color: rgba(152, 152, 215, 0.952);
+    height: 100vh;/*Esta medida representa el alto de la pantalla del usuario*/
+    width: 100vw;/*Esta medida representa el ancho de la pantalla del usuario*/
+    display: flex;/*habilito a las propiedades de disposicion*/
+    flex-direction: column;/*direccion de sus hijos*/
+    justify-content: space-between;/*disposicion en el contenedor*/
+}
+
+#seccion2{
+    height: 250px !important;
+    width: 250px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    background-color: chocolate;
+    padding: 10px;
+}
+#profile-pic2{
+        height: 250px !important;
+        width: 250px !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#texto1{
+    text-align: center;
+    background-color: blue;
+}
