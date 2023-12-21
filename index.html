@@ -5,28 +5,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./styles/styles.css"/>
         <title>Documento</title>
+        <link rel="stylesheet" href="styles/styles.css">
     </head>
+
     <body>
         <!-- -->
-        <section>
-            <form>
-             <section id="form1">
-                <h2>Formulario</h2>
-                <img id="profile2" src="./assets/images/profile.png" alt="imagen centrada" class="center">
-            
-                <div class="formulario">
-                    <label for="Texto">Input de texto</label>
-                    <input type="text" id="Texto" maxlength="15"/>
+        <div class="wrapper"     
+            <form action="">
+                <h1>x</h1>
+                <div>
+                  <img id="profile"
+                    src="./assets/images/Mesa de trabajo 1.png" alt="profile">
                 </div>
-                <div class="formulario">
-                    <label for="Numero">Input de número</label>
-                    <input type="number" id="Numero" max="15" min="1"/>
+                <div class="input-box">
+                    <label for="Texto">Username</label>
+                    <input type="text" placeholder="mail" required maxlenfgt="10">
                 </div>
-                <div class="formulario">
-                    <label for="contraseña">Input de password</label>
-                    <input type="password" id="contraseña">
+                <div class="input-box">
+                    <label for="Numero">Password</label>
+                    <input type="password" placeholder="CI" required max="7" min="1">
+                </div>
+
+                <button type="submit" class="btn">Login</button>
+                <br/><!--dar espacio-->
+                <br/>
+
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">Remember me
+                    </label>
+                    <a href="#">Forgot password?</a>
+                </div>    
+                
+                <div class="register-link">
+                    <p>¿No tienes cuenta?
+                        <a href="#">Registrate</a>
+                    </p>
+                <button type="close" class="btn1">Cerrar</button>
                 </div>
             </form>
-        </section>
+        </div>    
     </body>
 </html>
